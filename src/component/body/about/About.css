@@ -1,0 +1,64 @@
+.about {
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.807); */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 79, 1) 39%, rgba(0, 212, 255, 1) 100%);
+    padding-bottom: 1.5rem;
+
+}
+
+.about h2 {
+    text-align: center;
+    color: rgb(192, 201, 209);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid none;
+    border-radius: 10px 10px 20px 20px;
+    margin: 1rem;
+    color: rgba(235, 221, 221, 0.943);
+    padding: 10px 0px;
+
+
+}
+
+.about_text h4:hover {
+    animation: h4_anim 4s ease-in-out infinite;
+}
+
+@keyframes h4_anim {
+    0% {
+        text-decoration: underline;
+        text-decoration-color: linear-gradient(#42275a, #734b6d);
+        text-decoration-style: double;
+    }
+
+    100% {
+        text-decoration: underline;
+        text-decoration-color: linear-gradient(#42275a, #734b6d);
+        text-decoration-style: double;
+    }
+}
+
+
+
+.card {
+    width: 18rem;
+}
+
+.about_text h4 {
+    letter-spacing: .25rem;
+}
+
+
+@media screen and (max-width:803px) {
+    .about_content {
+        text-align: center;
+    }
+}
