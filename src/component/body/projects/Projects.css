@@ -1,0 +1,66 @@
+.project_list {
+    background-color: beige;
+    padding: 1rem 0rem 1rem 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project_use {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.project_use span {
+    padding: .2rem .5rem;
+    border: 2px solid blue;
+    border-radius: 10%;
+    text-align: center;
+    min-width: fit-content;
+    font-size: .9rem;
+}
+
+.project_use span:hover {
+    background-color: black;
+    color: chartreuse;
+    border: 2px solid chartreuse;
+    cursor: context-menu;
+}
+
+.project_link {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: .5rem 1rem;
+}
+
+.project_link:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.project_link a {
+    text-decoration: none;
+    color: brown;
+    font-size: 1rem;
+
+}
+
+.project_link a:hover {
+    color: rgba(0, 0, 0, 0.948);
+    font-size: 1rem;
+}
+
+.project_link img {
+    width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_link_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}

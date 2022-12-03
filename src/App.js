@@ -1,13 +1,13 @@
 import './App.css';
 import Main from './component/Main';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Main />
-    </div>
+    </BrowserRouter>
   );
 }
 
