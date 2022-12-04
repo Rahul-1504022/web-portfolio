@@ -1,10 +1,72 @@
+/* .bg_img {
+    /* max-width: 100%; */
+/* width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.8; */
 .bg {
-    /* display: block; */
-    /* Full height */
-    height: 100%;
-    background-image: url("../../../public/assets/img/bg-image.svg");
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    /* background-color: rgba(255, 228, 196, 0.603); */
+}
+
+.bg_img img {
+    border-radius: 50%;
+    box-shadow: rgba(34, 182, 23, 0.892)0px 0px 100px 20px;
+}
+
+.bg_text {
+    position: relative;
+    top: 20vh;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0rem;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+    /* background-color: rgb(215, 185, 148); */
+
+}
+
+.bg_text h1 {
+    padding-top: 1.4rem;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    /* text-decoration: underline;
+    text-decoration-style: double; */
+}
+
+.bg_text h3 {
+    color: rgba(220, 187, 139, 0.883);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.bg_text :hover {
+    animation-name: bg_text_anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.bg_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg_icon img {
+    width: 3rem;
+}
+
+@keyframes bg_text_anim {
+    from {
+        color: red;
+    }
+
+    to {
+        color: yellow;
+    }
 }
