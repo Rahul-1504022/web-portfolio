@@ -11,7 +11,7 @@ const Projects = () => {
     ))
 
     return (
-        <div>
+        <div className="project">
             {project_card}
         </div>
     )

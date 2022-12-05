@@ -1,7 +1,17 @@
+.project {
+    background-color: black;
+}
+
+
 .project_list {
     background-color: beige;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid chartreuse;
+    border-radius: 1rem;
+    margin: 0rem 1.5rem 1.3rem 1.5rem;
+    box-shadow: rgba(117, 205, 138, 0.644) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 .project_use {
