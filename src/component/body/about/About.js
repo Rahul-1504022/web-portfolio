@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
     return (
         <div className="about">
-            <h2>About Me</h2>
+            <h2>About</h2>
             <div className="about_content">
                 <div className="card about_img">
                     <img src="assets/img/my_img.jpg" alt="image" className="card-img-top" />
@@ -14,7 +14,6 @@ const About = () => {
                     <i>B.Sc in Computer Science and Engineering</i>
                     <p>Date Of Birth : 26 JAN. 1997</p>
                 </div>
-
             </div>
         </div>
     )

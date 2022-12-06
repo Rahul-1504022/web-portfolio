@@ -3,6 +3,12 @@ import "../bgimage/BgImage.css";
 const BgImage = () => {
     return (
         <div className="bg">
+            {/* <div className="bg_nav">
+                <span>About</span>
+                <span>Skill</span>
+                <span>Projects</span>
+                <span>Contact</span>
+            </div> */}
             {/* <img className="bg_img" src="assets/img/bg_img_2.jpg" alt="Background" /> */}
             <div className="bg_text">
                 <div className="bg_img">

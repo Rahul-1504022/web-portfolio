@@ -4,14 +4,16 @@ import Nav from "./header/navbar/Nav";
 import Projects from "./body/projects/Projects";
 import BgImage from "./bgimage/BgImage";
 import "./Main.css";
+import Education from "./body/education/Education";
 const Main = () => {
     return (
         <div className="main">
             <BgImage />
             {/* <Nav /> */}
-            <About />
-            <Skills />
-            <Projects />
+            {/* <About />
+            <Education />
+            <Skills /> */}
+            {/* <Projects /> */}
         </div>
     )
 }
