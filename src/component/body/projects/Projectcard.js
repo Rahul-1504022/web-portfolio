@@ -10,7 +10,7 @@ const Projectcard = ({ project }) => {
         <li key={item}>{item}</li>
     ))
     return (
-        <div className="project_list">
+        <div className="project_list" data-aos="zoom-in" data-aos-duration="1500">
             <h4>{project.name}</h4>
             <h6>{project.description}</h6>
             <div className="project_use">

@@ -43,17 +43,17 @@ const Skills = () => {
                     REACT.JS
                 </Progress>
             </div>
-            <div className="skill_list">
+            <div className="skill_list" data-aos="flip-left" data-aos-duration="1500">
                 {frontSkill}
             </div>
             <hr />
 
-            <div className="skill_list">
+            <div className="skill_list" data-aos="flip-left" data-aos-duration="1500">
                 {backSkill}
             </div>
             <hr />
 
-            <div className="skill_list">
+            <div className="skill_list" data-aos="flip-left" data-aos-duration="1500">
                 {otherSkill}
             </div>
         </div>

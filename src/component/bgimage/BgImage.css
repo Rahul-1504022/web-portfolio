@@ -36,7 +36,7 @@
 }
 
 .bg_img img {
-    animation: img_rot 10s linear infinite;
+    animation: img_rot 4s linear infinite;
     border-radius: 50%;
     box-shadow: rgba(169, 23, 182, 0.916)0px 0px 100px 20px;
 }
@@ -44,6 +44,7 @@
 .bg_img img:hover {
     animation: none;
 }
+
 
 @keyframes img_rot {
     from {
@@ -84,6 +85,7 @@
 .bg_icon {
     display: flex;
     flex-wrap: wrap;
+    gap: .5rem;
     justify-content: center;
 }
 
