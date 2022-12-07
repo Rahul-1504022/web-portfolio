@@ -5,23 +5,29 @@ import Projects from "./body/projects/Projects";
 import BgImage from "./bgimage/BgImage";
 import "./Main.css";
 import Education from "./body/education/Education";
+import Contact from "./body/contact/Contact";
+import Footer from "./footer/Footer";
+import Training from "./body/education/Training";
 
 const Main = () => {
     return (
         <div className="main">
             <BgImage />
             {/* <Nav /> */}
-            <div data-aos="fade-up" data-aos-duration="1500">
-                <About />
+            <About />
+            <div className="row edu_train">
+                <div className="col-md-6">
+                    <Education />
+                </div>
+                <div className="col-md-6">
+                    <Training />
+                </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-                <Education />
-            </div>
-            <div>
-                <Skills />
-            </div>
-            <div>
-                <Projects />
+            <Skills />
+            <Projects />
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                <Contact />
+                <Footer />
             </div>
         </div>
     )

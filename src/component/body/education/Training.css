@@ -1,5 +1,5 @@
-.education {
-    text-align: left;
+.training {
+    text-align: center;
     padding: 1rem 2rem;
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 79, 1) 39%, rgba(0, 212, 255, 1) 100%); */
     color: rgba(235, 221, 221, 0.943);
@@ -7,21 +7,20 @@
 
 }
 
-.edu_div {
+.training_list {
     background-color: rgba(71, 61, 139, 0.158);
 }
 
-.edu_list:hover {
+.training_list:hover {
     color: bisque;
 }
 
-.edu_list {
-    text-align: center;
-    border-radius: 10px;
-}
-
-.education h2 {
+.training h2 {
     text-align: center;
     color: rgb(192, 201, 209);
     text-transform: uppercase;
+}
+
+.train_data a button {
+    margin-left: 1rem;
 }

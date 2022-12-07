@@ -3,10 +3,10 @@
     /* background-color: rgba(255, 255, 255, 0.807); */
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 79, 1) 39%, rgba(0, 212, 255, 1) 100%);
     padding-bottom: 1.5rem;
-
 }
 
-.about h2 {
+.about h2,
+h6 {
     text-transform: uppercase;
     text-align: center;
     color: rgb(192, 201, 209);
@@ -55,6 +55,16 @@
 
 .about_text h4 {
     letter-spacing: .25rem;
+}
+
+.about_intro {
+    text-align: start;
+    padding: 0rem 2rem;
+    font-weight: 400;
+}
+
+.about_intro p {
+    color: rgba(234, 234, 59, 0.903);
 }
 
 

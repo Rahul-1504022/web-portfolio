@@ -12,13 +12,13 @@ const Projectcard = ({ project }) => {
     return (
         <div className="project_list" data-aos="zoom-in" data-aos-duration="1500">
             <h4>{project.name}</h4>
-            <h6>{project.description}</h6>
+            <h5>{project.description}</h5>
             <div className="project_use">
                 {project_use}
             </div>
             <div className="project_feature">
                 <hr />
-                <h6>Features</h6>
+                <h5>Features</h5>
                 <ul>
                     {project_feature}
                 </ul>
@@ -29,7 +29,7 @@ const Projectcard = ({ project }) => {
                     <a href={project.github_link_front} target="_blank">Check Here</a>
                 </div>
                 <div className="project_link">
-                    <img src="assets/img/server_icon.svg" alt="Github Link" />
+                    <img src="assets/img/server_icon.svg" alt="Live Server" />
                     <a href={project.live_link} target="_blank">Check Here</a>
                 </div>
             </div>
