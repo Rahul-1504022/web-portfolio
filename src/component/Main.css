@@ -1,3 +1,12 @@
 .edu_train {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 79, 1) 39%, rgba(0, 212, 255, 1) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .edu_train {
+        grid-template-columns: 1fr;
+    }
 }

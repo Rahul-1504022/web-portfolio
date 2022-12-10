@@ -9,13 +9,13 @@ const Education = () => {
                 <div className="row justify-content-center edu_div">
                     <div className="col-12 edu_list">
                         <h4>Chittagong University of Engineering and Technology</h4>
-                        <h6>B.Sc in Computer Science and Engineering</h6>
+                        <h5>B.Sc in Computer Science and Engineering</h5>
                         <span>CGPA : 3.44</span>
                     </div>
                     <hr />
                     <div className="col-12 edu_list">
                         <h4>Chittagong College</h4>
-                        <h6>HSC</h6>
+                        <h5>HSC</h5>
                         <span>GPA : 5.00</span>
                     </div>
                 </div>

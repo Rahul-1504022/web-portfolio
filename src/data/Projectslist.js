@@ -39,7 +39,7 @@ export const PROJECT_LIST = [
         ],
         github_link_front: "https://github.com/Rahul-1504022/E-Commerce-Project",
         github_link_back: "",
-        live_link: "#",
+        live_link: "https://e-commerce-frontend-g3xw.onrender.com/",
     },
     {
         id: 4,
@@ -54,7 +54,7 @@ export const PROJECT_LIST = [
         ],
         github_link_front: "https://github.com/Rahul-1504022/burger-builder-Full-Stack-",
         github_link_back: "https://github.com/Rahul-1504022/burger-builder-api",
-        live_link: "#",
+        live_link: "https://my-burger.onrender.com/",
     },
     {
         id: 5,
@@ -65,8 +65,33 @@ export const PROJECT_LIST = [
             "User can search anyone github profile",
             "Using Fetch API to fetch information from github API",
         ],
-        github_link_front: " https://github.com/Rahul-1504022/github_finder",
+        github_link_front: "https://github.com/Rahul-1504022/github_finder",
         github_link_back: "",
         live_link: "https://rahul-1504022.github.io/github_finder/",
+    },
+    {
+        id: 6,
+        name: "Restaurant",
+        description: "Mini Restaurant app using Reactjs",
+        use: ["Javascript", "React", "Redux Store"],
+        feature: [
+            "Different menu and comments loaded on webpage from redux store",
+            "User can comment about menu items and comment stored in redux store",
+        ],
+        github_link_front: "https://github.com/Rahul-1504022/restaurant",
+        github_link_back: "",
+        live_link: "#",
+    },
+    {
+        id: 7,
+        name: "Number Guesser Game",
+        description: "Guessing Game using Reactjs",
+        use: ["Javascript"],
+        feature: [
+            "User gets 3 chance to guess the right answer within a given range of number",
+        ],
+        github_link_front: "https://github.com/Rahul-1504022/number_guesser_game",
+        github_link_back: "",
+        live_link: "https://rahul-1504022.github.io/number_guesser_game/",
     },
 ]

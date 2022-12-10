@@ -15,13 +15,9 @@ const Main = () => {
             <BgImage />
             {/* <Nav /> */}
             <About />
-            <div className="row edu_train">
-                <div className="col-md-6">
-                    <Education />
-                </div>
-                <div className="col-md-6">
-                    <Training />
-                </div>
+            <div className="edu_train">
+                <Education />
+                <Training />
             </div>
             <Skills />
             <Projects />
