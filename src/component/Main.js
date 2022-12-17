@@ -8,23 +8,40 @@ import Education from "./body/education/Education";
 import Contact from "./body/contact/Contact";
 import Footer from "./footer/Footer";
 import Training from "./body/education/Training";
+import { useEffect, useState } from "react";
 
 const Main = () => {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 7000);
+    }, []);
+
     return (
-        <div className="main">
-            <BgImage />
-            {/* <Nav /> */}
-            <About />
-            <div className="edu_train">
-                <Education />
-                <Training />
-            </div>
-            <Skills />
-            <Projects />
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
-                <Contact />
-                <Footer />
-            </div>
+        <div>
+            {loading &&
+                <div className="loading">
+                    <span>LOADING</span>
+                </div>}
+            {!loading &&
+                <div className="main">
+                    <BgImage />
+                    {/* <Nav /> */}
+                    <About />
+                    <div className="edu_train">
+                        <Education />
+                        <Training />
+                    </div>
+                    <Skills />
+                    <Projects />
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                        <Contact />
+                        <Footer />
+                    </div>
+                </div>}
+
         </div>
     )
 }
