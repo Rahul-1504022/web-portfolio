@@ -15,7 +15,7 @@ export const PROJECT_LIST = [
     {
         id: 2,
         name: "Hotel Room Booking",
-        description: "Simple Photo gallery app using Reactjs",
+        description: "Room Booking app using Reactjs",
         use: ["Javascript", "React", "Redux store", "Firebase api"],
         feature: [
             "User can book different category rooms according to the availability",
@@ -44,7 +44,7 @@ export const PROJECT_LIST = [
     {
         id: 4,
         name: "Burger Builder",
-        description: "Fully functional e-commerce app using Reactjs",
+        description: "Build your own burger . App is developed using Reactjs",
         use: ["Javascript", "React", "Node.js", "MongoAtlas", "Express", "Rest API", "SSLCommerz", "Redux Store"],
         feature: [
             "User can build his/her own burger and order it",
@@ -59,7 +59,7 @@ export const PROJECT_LIST = [
     {
         id: 5,
         name: "Github Finder",
-        description: "Fully functional e-commerce app using Reactjs",
+        description: "Find anyone in github using git username",
         use: ["Javascript"],
         feature: [
             "User can search anyone github profile",
